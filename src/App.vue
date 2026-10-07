@@ -3,6 +3,7 @@ import HellooWorld from './demons/01_helloWorld/HellooWorld.vue';
 import Interpolation from './demons/02_interpolation/Interpolation.vue';
 import VBind from './demons/03_VBind/VBind.vue';
 import AttributDynamic from './demons/04_AttributDynamic/AttributDynamic.vue';
+import Event from './demons/05_event/Event.vue';
 
 
 
@@ -22,9 +23,14 @@ import AttributDynamic from './demons/04_AttributDynamic/AttributDynamic.vue';
     <VBind></VBind>
 
     04
+    <AttributDynamic></AttributDynamic>
+
+    05
     -->
 
-    <AttributDynamic></AttributDynamic>
+    <Event></Event>
+
+    
 
    
 

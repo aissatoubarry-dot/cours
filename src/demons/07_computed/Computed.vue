@@ -1,5 +1,5 @@
 <script setup>
-import { reactive } from 'vue';
+import { computed, reactive, ref } from 'vue';
 
 
 const cart = reactive([
@@ -9,6 +9,12 @@ const cart = reactive([
     {nom:'crayon', prix:10000, stock:1}
 ])
 
+const total = computed(
+    ()=>{
+        return cart.reduce((somme,s)=> somme + s.prix*s.stock , 0)
+    }
+);
+
 </script>
 
 <template>
@@ -17,11 +23,11 @@ const cart = reactive([
 
     <ul>
       <li v-for="item in cart" :key="item.name">
-       ... × ... -> ... FCFA
+       {{item.nom}}: {{item.prix}} × {{item.stock}} -> {{ item.prix * item.stock }} FCFA
       </li>
     </ul>
 
-    <h3>Total : ... FCFA</h3>
+    <h3>Total : {{total}} FCFA</h3>
 
     <p class="note">
       Le total se met à jour automatiquement.

@@ -1,4 +1,13 @@
 <script setup>
+import { reactive } from 'vue';
+
+
+const cart = reactive([
+    {nom:'cahier', prix:2222, stock:4},
+    {nom:'bic', prix:4000, stock:10},
+    {nom:'livre', prix:2000, stock:9},
+    {nom:'crayon', prix:10000, stock:1}
+])
 
 </script>
 

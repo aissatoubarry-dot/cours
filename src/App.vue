@@ -4,6 +4,7 @@ import Interpolation from './demons/02_interpolation/Interpolation.vue';
 import VBind from './demons/03_VBind/VBind.vue';
 import AttributDynamic from './demons/04_AttributDynamic/AttributDynamic.vue';
 import Event from './demons/05_event/Event.vue';
+import FormEvent from './demons/05_event/FormEvent.vue';
 
 
 
@@ -26,12 +27,13 @@ import Event from './demons/05_event/Event.vue';
     <AttributDynamic></AttributDynamic>
 
     05
-    -->
-
     <Event></Event>
 
-    
+    06
+    -->
 
+    <FormEvent></FormEvent>
+    
    
 
   </div>

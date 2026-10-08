@@ -24,6 +24,9 @@ import { ref } from 'vue';
 
         })
 
+        nom.value = "";
+        num.value = "";
+
     }
 
 </script>
@@ -42,6 +45,7 @@ import { ref } from 'vue';
         </form>
 
         {{ contact }}
+        
     </section>
   
 </template>

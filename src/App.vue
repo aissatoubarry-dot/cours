@@ -5,6 +5,8 @@ import VBind from './demons/03_VBind/VBind.vue';
 import AttributDynamic from './demons/04_AttributDynamic/AttributDynamic.vue';
 import Event from './demons/05_event/Event.vue';
 import FormEvent from './demons/05_event/FormEvent.vue';
+import Reactive from './demons/06_reactive/Reactive.vue';
+import Computed from './demons/07_computed/Computed.vue';
 
 
 
@@ -28,11 +30,17 @@ import FormEvent from './demons/05_event/FormEvent.vue';
 
     05
     <Event></Event>
+    <FormEvent></FormEvent>
 
     06
+    <Reactive></Reactive>
+
+    07
+    
     -->
 
-    <FormEvent></FormEvent>
+    <Computed></Computed>
+    
     
    
 

@@ -7,6 +7,7 @@ import Event from './demons/05_event/Event.vue';
 import FormEvent from './demons/05_event/FormEvent.vue';
 import Reactive from './demons/06_reactive/Reactive.vue';
 import Computed from './demons/07_computed/Computed.vue';
+import Rendering from './demons/08_conditional_rendering/Rendering.vue';
 
 
 
@@ -36,10 +37,13 @@ import Computed from './demons/07_computed/Computed.vue';
     <Reactive></Reactive>
 
     07
+    <Computed></Computed>
     
     -->
 
-    <Computed></Computed>
+    <Rendering></Rendering>
+
+   
     
     
    

@@ -8,6 +8,7 @@ import FormEvent from './demons/05_event/FormEvent.vue';
 import Reactive from './demons/06_reactive/Reactive.vue';
 import Computed from './demons/07_computed/Computed.vue';
 import Rendering from './demons/08_conditional_rendering/Rendering.vue';
+import For from './demons/09_for/For.vue';
 
 
 
@@ -38,11 +39,16 @@ import Rendering from './demons/08_conditional_rendering/Rendering.vue';
 
     07
     <Computed></Computed>
+
+    08
+    <Rendering></Rendering>
+
+    09
+
     
     -->
 
-    <Rendering></Rendering>
-
+    <For></For>
    
     
     

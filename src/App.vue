@@ -9,6 +9,7 @@ import Reactive from './demons/06_reactive/Reactive.vue';
 import Computed from './demons/07_computed/Computed.vue';
 import Rendering from './demons/08_conditional_rendering/Rendering.vue';
 import For from './demons/09_for/For.vue';
+import Props from './demons/10_props/Props.vue';
 
 
 
@@ -44,11 +45,15 @@ import For from './demons/09_for/For.vue';
     <Rendering></Rendering>
 
     09
+    <For></For>
+
+    10
 
     
     -->
 
-    <For></For>
+    <Props></Props>
+
    
     
     
